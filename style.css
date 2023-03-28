@@ -1,0 +1,83 @@
+/*Colors and fonts*/
+body {
+	background:rgb(255, 255, 255) ;
+	color:rgb(174 213 174);
+	font-family: 'Delicious Handrawn', cursive;
+	font-size:20px
+	font-weight: lighter;
+}
+
+h1{
+	color:rgb(97, 135, 110)
+}
+
+h2{
+	color:rgb(148, 175, 159)
+}
+a{
+	color:rgb(148, 175, 159)
+}
+a:hover {
+	color:rgb(174 213 174)
+}
+
+/* Custom design with class (99) */
+.container {
+	width: 700px;
+    margin: 40px auto
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px){
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+    margin: 50px 0px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    text-align: center;
+    border: 1px dotted lightgrey;
+}
+.img-circle {
+	border-radius: 30%;
+}
+.btn-green {
+	background-color: rgb(97, 135, 110);
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color:black;
+	color:white;
+}
+.list-inline {
+	list-style:none;
+	padding-left:0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-inline i:hover {
+	color: black;
+}
+
+/* Desing adjustements using id (1% design remaining) */
+#introduction p{
+	margin-bottom: 40px;
+}
